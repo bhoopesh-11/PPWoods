@@ -1,0 +1,34 @@
+.grid-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: 30px 30px;
+    background-image: 
+        linear-gradient(to right, rgba(128, 128, 128, 0.2) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(128, 128, 128, 0.2) 1px, transparent 1px);
+    pointer-events: none;
+    z-index: 0;
+}
+
+body.dark-theme .grid-background {
+    background-image: 
+        linear-gradient(to right, rgba(255, 255, 255, 0.15) 1px, transparent 1px),
+        linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 1px, transparent 1px);
+}
+
+.section-content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    min-height: inherit;
+}
+
+.grid-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    min-height: inherit;
+}

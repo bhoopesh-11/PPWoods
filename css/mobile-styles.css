@@ -1,0 +1,26 @@
+@media (max-width: 768px) {
+    .contact-form {
+        margin: 1rem auto;
+        padding: 1rem;
+    }
+
+    .form-group {
+        margin-bottom: 1rem;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        padding: 0.8rem;
+        font-size: 1rem;
+    }
+
+    .submit-btn {
+        width: 100%;
+        padding: 1rem;
+        font-size: 1.1rem;
+    }
+
+    .top-row {
+        grid-template-columns: 1fr;
+    }
+}
