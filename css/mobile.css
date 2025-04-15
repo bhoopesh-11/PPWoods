@@ -5,10 +5,9 @@
     h3 { font-size: 3.5rem; }
     p { font-size: 2.5rem; }
 
-    /* Navbar */
+    /* Hide navbar on mobile */
     .navbar {
-        padding: 10px;
-        flex-direction: column;
+        display: none;
     }
 
     .nav-links {
